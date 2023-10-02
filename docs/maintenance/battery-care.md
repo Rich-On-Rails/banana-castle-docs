@@ -15,6 +15,10 @@ The battery currently installed in the loco is a *Halfords HB038 Lead Acid 12V C
 
 ![Alt text](../../images/battery.jpg)
 
+1A is 1 Amp which could be described as the flow of electricity. The battery used on the loco has a total capacity of 35 Amp Hours which means that when fully charged it can deliver 1 amp for 35 hours or 10 amps for 3.5 etc. 
+
+With the above in mind in theory it will take 35 hours for a 1A charger to fully charge the battery, see the specifications section of this document which shows the recommended charge rate of the battery. 
+
 ### Charging
 
 ### Connecting the battery 
