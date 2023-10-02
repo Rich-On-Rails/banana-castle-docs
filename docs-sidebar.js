@@ -27,16 +27,17 @@ const sidebars = {
   docs: [
     'welcome',
     'introduction',
-    {
-      type: 'category',
-      label: 'Planet 1',
-      collapsible: false,
-      items: [        
-        'welcome',
-        'welcome',
-        'welcome',         
-      ],
-    },
+    // {
+    //   type: 'category',
+    //   label: 'Planet 1',
+    //   collapsible: false,
+    //   items: [        
+    //     'welcome',
+    //     'welcome',
+    //     'welcome',         
+    //   ],
+    // },
+    'transportation',
     {
       type: 'category',
       label: 'Loco Maintenance',
@@ -47,22 +48,10 @@ const sidebars = {
       collapsed: true,
       items: [
         'maintenance/battery-care',
-        'maintenance/oil'
+        'maintenance/oil',
+        'maintenance/body-care',
       ],
-    },
-    {
-      type: 'category',
-      label: 'Steam Loco Prep',
-      link: {
-        type: 'doc',
-        id: 'welcome',
-      },
-      collapsed: true,
-      items: [
-        'welcome'                 
-      ],
-    },   
-    
+    }    
   ],
 };
 module.exports = sidebars;
